@@ -18,5 +18,10 @@
     "enabled": true,
     "replicas": 2,
     "sync_mode": "synchronous"
+  },
+  "development": {
+    "seed_data": true,
+    "reset_on_restart": true,
+    "debug_queries": true
   }
 }
