@@ -23,5 +23,15 @@
     "seed_data": true,
     "reset_on_restart": true,
     "debug_queries": true
+  },
+  "ai_optimization": {
+    "query_optimization": true,
+    "index_suggestions": true,
+    "auto_vacuum_ml": true
+  },
+  "monitoring": {
+    "slow_query_threshold": 100,
+    "alert_on_anomaly": true,
+    "metrics_export": "prometheus"
   }
 }
